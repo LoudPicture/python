@@ -7,7 +7,7 @@ sum=0
 len1=len(list1)
 for i in list1:
   sum=sum+i
-print("avg = "+sum/len1)
+print("avg = ",sum/len1)
 max=0
 min=1000000
 for i in list1:
@@ -15,5 +15,5 @@ for i in list1:
     max=i
   if(i<min):
     min=i
-print("max = "+max)
-print("min = "+min)
+print("max = ",max)
+print("min = ",min)
